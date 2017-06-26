@@ -8,7 +8,7 @@
 
 ## Instalation
 ```julia
-julia> Pkg.add("TinyInt")
+julia> Pkg.clone("https://github.com/mcovalt/TinyInt.jl.git")
 julia> Pkg.test("TinyInt")
 ```
 
