@@ -1,4 +1,7 @@
 # TinyInt.jl
+
+[![Build Status](https://travis-ci.org/mcovalt/TinyInt.jl.svg?branch=master)](https://travis-ci.org/mcovalt/TinyInt.jl)
+
 `TinyInt.jl` is a Julia package for compressing integer vectors very quickly. Elements of the compressed integer vector can be accessed just as you would with a normal vector.
 
 ## Requirements
