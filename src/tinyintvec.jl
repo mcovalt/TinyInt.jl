@@ -1,5 +1,5 @@
 const m128i = VecElement{Int128}
-immutable TinyIntVec
+struct TinyIntVec
     data::Vector{Vector{m128i}}
     b::Vector{UInt8}
     n::Int64

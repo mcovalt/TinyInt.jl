@@ -2,7 +2,7 @@ module TinyInt
     # Overloaded functions
     import Base: getindex, length
     # Ensure library is compiled
-    if is_windows()
+    if Sys.iswindows()
         error("Windows is unsupported at this time.")
     end
     build_dir = string(dirname(@__FILE__), "/../deps/simdcomp")
